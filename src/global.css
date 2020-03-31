@@ -1,0 +1,29 @@
+/* 使用antd的暗色模式 */
+#root{
+    width:100%;
+    min-height: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+} 
+.rowV{
+	flex-direction: row;
+}
+.colV{
+	flex-direction: column;
+}
+.centerJC{
+	justify-content: center;
+}
+.centerAI{
+	align-items: center;
+}
+.ant-spin-container{
+    flex-direction: column;
+}
